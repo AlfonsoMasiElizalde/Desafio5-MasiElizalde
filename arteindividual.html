@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+
     <!-- CSS -->
     <link rel="stylesheet" href="css/style-picara.css">
 
@@ -50,17 +53,35 @@
 
     <!-- Body -->
     <section class="arteindividual-body-container">
-        <div class="arteindividual-body-div-1">
-            <img class="arteindividual-img-1" src="multimedia/girl-panther.jpg" alt="foto-ind-random">
-        </div>
-        <div class="arteindividual-body-div-2">
-            <p class="arteindividual-p-1">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis alias culpa quos ratione quia ipsum adipisci, laudantium ab, quis quod nesciunt, ad vero expedita eos delectus pariatur omnis cum iste.
-                Qui iste ab optio aspernatur quae sunt delectus, magnam quos iure quibusdam possimus, repudiandae numquam. Fuga minima, alias, repudiandae eaque ipsam doloribus, deserunt blanditiis illo sint saepe in aperiam? Quibusdam!
-                Corrupti cum, assumenda perspiciatis at quod sequi est? Et, veniam. Eos facilis veritatis adipisci aliquid rem soluta itaque debitis reprehenderit! Possimus est veritatis, placeat consectetur fugit fugiat reprehenderit ad cumque!
-                At provident molestiae placeat, culpa dolorem atque nemo numquam rem qui facilis, expedita repudiandae a nisi eaque blanditiis mollitia. Voluptates, porro. Ratione exercitationem recusandae suscipit harum, adipisci obcaecati sequi nemo.
-            </p>
-        </div>
+        <div id="carouselExampleIndicators" class="carousel slide w-100 h-50" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="multimedia/girl-panther.jpg" class="d-block w-100" alt="girl-panther">
+              </div>
+              <div class="carousel-item">
+                <img src="multimedia/moon-fairy.jpg" class="d-block w-100 h-25" alt="moon-fairy">
+              </div>
+              <div class="carousel-item">
+                <img src="multimedia/portrait2.jpg" class="d-block w-100 h-25" alt="portrait2">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+          <div class="arteindividual-body-div-2">
+              <p class="arteindividual-p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, iure ipsum illum asperiores unde, quaerat reiciendis atque dolore assumenda minus dignissimos dolorem rerum maxime laudantium quae. Earum quod ullam dolores?Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam vero neque animi deserunt eius eveniet veniam dicta sequi nulla ea repellendus obcaecati sed magnam veritatis eligendi sit, error vel perferendis.</p>
+          </div>
     </section>
     <!-- Fin Body-->
 
@@ -87,6 +108,6 @@
         </div>
     </footer>
     <!-- Fin Footer -->
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
